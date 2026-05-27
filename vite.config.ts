@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/landing-page/',
+  base: '/Landing_Page/',
   plugins: [react()],
   css: {
     postcss: {
