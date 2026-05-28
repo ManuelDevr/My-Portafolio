@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/postcss'
 import path from 'path'
 
 export default defineConfig({
-  base: '/Landing_Page/',
+  base: '/My-Portafolio/',
   plugins: [react()],
   css: {
     postcss: {

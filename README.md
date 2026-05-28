@@ -12,6 +12,7 @@ La landing page está pensada para mostrar una presentación personal clara y at
 - TypeScript
 - Vite
 - Tailwind CSS
-- Framer Motion
-- React Icons
-- Lucide React
+
+## Cómo usar
+
+- Ingresar a la url: https://manueldevr.github.io/My-Portafolio/
