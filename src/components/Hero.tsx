@@ -20,8 +20,9 @@ export default function Hero() {
             </h1>
           </div>
           <p className="text-gray-400 text-lg md:text-xl max-w-lg leading-relaxed">
-            Me apasiona construir software escalable, modular y centrado en el usuario. 
-            Especializado en Next.js, arquitecturas backend robustas y experiencias digitales de alto rendimiento.
+            Me apasiona construir software funcional, escalable y centrado en el usuario. 
+            Tengo experiencia práctica con JavaScript, PHP y frameworks como React, Node.js, Spring Boot, Laravel y Symfony. 
+            Actualmente busco prácticas profesionales para seguir creciendo en entornos ágiles.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <button className="px-8 py-3 bg-glow-blue hover:bg-glow-blue/80 text-white rounded-full transition-all flex items-center gap-2 group shadow-lg shadow-glow-blue/20 font-bold">
@@ -31,7 +32,7 @@ export default function Hero() {
               <a href="https://github.com/ManuelDevr" target="_blank" rel="noopener noreferrer" className="p-3 bg-deep-800 hover:bg-deep-700 rounded-full transition-colors text-gray-300 hover:text-white border border-white/5">
                 <FaGithub size={24} />
               </a>
-              <a href="https://pe.linkedin.com/in/manuel-geovanni-nole-almeyda-75b693360" target="_blank" rel="noopener noreferrer" className="p-3 bg-deep-800 hover:bg-deep-700 rounded-full transition-colors text-gray-300 hover:text-white border border-white/5">
+              <a href="https://www.linkedin.com/in/manuel-geovanni-nole-almeyda" target="_blank" rel="noopener noreferrer" className="p-3 bg-deep-800 hover:bg-deep-700 rounded-full transition-colors text-gray-300 hover:text-white border border-white/5">
                 <FaLinkedin size={24} />
               </a>
               <a href="mailto:manuel777nole@gmail.com" className="p-3 bg-deep-800 hover:bg-deep-700 rounded-full transition-colors text-gray-300 hover:text-white border border-white/5">

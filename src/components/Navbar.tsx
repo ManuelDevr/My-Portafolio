@@ -52,7 +52,7 @@ export default function Navbar() {
             <a href="https://github.com/ManuelDevr" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <FaGithub size={24} />
             </a>
-            <a href="https://pe.linkedin.com/in/manuel-geovanni-nole-almeyda-75b693360" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/manuel-geovanni-nole-almeyda" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <FaLinkedin size={24} />
             </a>
             

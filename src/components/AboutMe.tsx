@@ -36,20 +36,20 @@ export default function AboutMe() {
             <h2 className="text-3xl font-bold">Sobre <span className="text-glow-purple">mí</span></h2>
             <div className="space-y-4 text-gray-400 leading-relaxed text-lg">
               <p>
-                Soy un Ingeniero de Software con una profunda pasión por resolver problemas complejos a través de código limpio y eficiente. Mi enfoque se centra en la atención al detalle y la creación de experiencias de usuario excepcionales.
+                Soy egresado de la carrera de Desarrollo de Sistemas de Información en el instituto IDAT. Me especializo en la creación de aplicaciones web escalables utilizando tecnologías modernas como React, Node.js y Spring Boot.
               </p>
               <p>
-                A lo largo de mi carrera, he liderado el desarrollo de productos digitales innovadores, colaborando con equipos multidisciplinarios para transformar ideas audaces en realidades técnicas sólidas.
+                Me destaco por mi capacidad de trabajo en equipo, habiendo aplicado metodologías ágiles (Scrum) en proyectos académicos. Busco constantemente optimizar procesos de negocio a través del software.
               </p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              'Atención al detalle',
-              'Pasión por la tecnología',
-              'Visión de producto',
-              'Aprendizaje continuo'
+              'Resolución de problemas',
+              'Diseño responsivo',
+              'Mejora continua',
+              'Adaptabilidad'
             ].map((item) => (
               <div key={item} className="flex items-center gap-3 text-base text-gray-300">
                 <CheckCircle2 size={20} className="text-glow-blue" />
@@ -59,7 +59,7 @@ export default function AboutMe() {
           </div>
 
           <a 
-            href="https://docs.google.com/document/d/1gt74twdyZKhsDygeijq3hBc5JMVoNLUx50064ABbdnk/edit?usp=sharing" 
+            href="https://drive.google.com/file/d/1u6hcb1Z8tNU0SultiX1tDqEATyGSnl7Y/view" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-deep-700 hover:bg-deep-600 px-8 py-4 rounded-full border border-white/10 transition-all group font-bold text-lg w-fit"

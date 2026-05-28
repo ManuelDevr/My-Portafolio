@@ -24,11 +24,21 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           alt={project.title}
           className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
         />
+        {/* Status Badge */}
+        {project.status && (
+          <div className="absolute top-4 left-4 z-10">
+            <span className="bg-glow-purple/90 text-white text-[10px] font-bold px-3 py-1 rounded-full border border-white/20 backdrop-blur-sm uppercase tracking-widest shadow-lg shadow-glow-purple/20">
+              {project.status}
+            </span>
+          </div>
+        )}
         {/* Overlay with links */}
         <div className="absolute inset-0 bg-deep-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-6">
-          <a href={project.demoUrl} target="_blank" className="flex items-center gap-2 text-white bg-glow-blue px-4 py-2 rounded-lg text-sm font-medium hover:bg-glow-blue/80 transition-colors">
-            <ExternalLink size={16} /> Ver Demo
-          </a>
+          {project.demoUrl && (
+            <a href={project.demoUrl} target="_blank" className="flex items-center gap-2 text-white bg-glow-blue px-4 py-2 rounded-lg text-sm font-medium hover:bg-glow-blue/80 transition-colors">
+              <ExternalLink size={16} /> Ver Demo
+            </a>
+          )}
           <a href={project.githubUrl} target="_blank" className="flex items-center gap-2 text-white bg-deep-700 px-4 py-2 rounded-lg text-sm font-medium hover:bg-deep-600 transition-colors border border-white/10">
             <FaGithub size={16} /> Código
           </a>
